@@ -1,0 +1,292 @@
+<!-- the following code represents the about page of the foodie app that include its work, team , etc. -->
+<div ng-controller="aboutController">
+   <nav class="navbar navbar-default navbar-fixed">
+        <div class="container-fluid col-sm-12">
+          <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Foodie</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#!/home">Home</a></li>
+                    <li><a href="#!/about">About</a></li>
+                    <li><a href="#!/order">Order Online</a></li>
+                    <li><a href="#!/">Logout</a></li>
+                </ul>
+            </div>
+          <!-- /.navbar-collapse -->
+        </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <div class="ui container">
+         <div class="hero">
+        <!--  this just acts as a tagline for our app -->
+            <p>Find the best restaurants in town</p>
+         </div>
+
+         <div class="ui basic center aligned segment fourth third">
+                <!-- The following div defines a paragraph describing the work of foodie app -->
+                 <h1 class="first" >We do this by</h1>
+                  <div class="fontsize2 fifth seven sixth" style="padding-left:100px; padding-right: 100px">
+                     <p class="bold second">Helping people discover great places around them.</p> <p>Our team gathers information from every restaurant on a regular basis to ensure our data is fresh. </p><p class="bold second">Building amazing experiences around dining.</p> <p>Starting with information for over 1 million restaurants (and counting) globally, we're making dining smoother and more enjoyable with services .</p>  <p class="bold second">Enabling restaurants to create amazing experiences.</p> <p>With dedicated engagement and management tools, we're enabling restaurants to spend more time focusing on food itself.</p>
+                 </div>
+             </div>
+         </div>
+
+  <div class="wrappers">
+     <div class="ui segment">
+       <div class="third ">
+        <!-- the following section represents the team of the foodie app  -->
+         <div class="ui basic center aligned segment">
+             <h1 class="first">One team</h1>
+             <p class="fontsize2">We are over 2000 passionate Foodiens strong across 24 countries, and we're growing by the day. At last count, our team represents 32 nationalities, and speaks twice as many languages. We're split 50:50 on tea drinkers vs. coffee drinkers. The tea drinkers are the nicer ones.</p>
+         </div>
+     </div>
+    <!--  here, the team members are listed with their photos and names at the bottom of their photoraphs -->
+     <div class="card-content fifth">
+             <div class="ui six column grid">
+                 <div class="column">
+                   <div class="ui fluid card">
+                     <div class="image">
+                       <img ng-src="https://cdn4.iconfinder.com/data/icons/free-large-boss-icon-set/256/Asian_boss.png">
+                     </div>
+                     <div class="content">
+                       <p ><small>Harry</small></p>
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="column">
+                   <div class="ui fluid card">
+                     <div class="image">
+                       <img ng-src="http://envol.guide/media/2015/07/atendimento.png">
+                     </div>
+                     <div >
+                       <p ><small>Anna</small></p>
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="column">
+                   <div class="ui fluid card">
+                     <div class="image">
+                       <img ng-src="http://ru.seaicons.com/wp-content/uploads/2015/06/woman-icon.png">
+                     </div>
+                     <div >
+                       <p><small>Sumi</small></p>
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="column">
+                   <div class="ui fluid card">
+                     <div class="image">
+                       <img ng-src="http://javidabbasi.ir/images/man3.png">
+                     </div>
+                     <div>
+                       <p><small>Louis</small></p>
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="column">
+                   <div class="ui fluid card">
+                     <div class="image">
+                       <img ng-src="http://icons.iconarchive.com/icons/icons-land/vista-people/256/Occupations-Technical-Support-Representative-Male-Light-icon.png">
+                     </div>
+                     <div>
+                       <p><small>Sam</small></p>
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="column">
+                   <div class="ui fluid card">
+                     <div class="image">
+                       <img ng-src="http://icon-icons.com/icons2/11/PNG/256/customer_person_people_woman_you_1627.png">
+                     </div>
+                     <div >
+                       <p ><small>Selena</small></p>
+                     </div>
+                   </div>
+                 </div>
+
+
+             <div class="column">
+               <div class="ui fluid card">
+                 <div class="image">
+                   <img ng-src="http://s1.iconbird.com/ico/1012/BeautyConsultantIcons/w256h2561350247638beautyconsultantshowing256x256x32.png">
+                 </div>
+                 <div >
+                   <p ><small>Miley</small></p>
+                 </div>
+               </div>
+             </div>
+
+         <div class="column">
+           <div class="ui fluid card">
+             <div class="image">
+               <img ng-src="http://s1.iconbird.com/ico/1012/TeenageGirlIcons/w256h2561350248142ivegotit256x256x32.png">
+             </div>
+             <div >
+               <p ><small>Joe</small></p>
+             </div>
+           </div>
+         </div>
+
+
+
+     </div>
+     </div>
+
+     <div class="ui segment " style="margin-bottom:20px;">
+        <div class=" first ">
+             <div class="ui basic center aligned segment" href="#">
+                 <h1 class="first" >Be a part of our story</h1>
+                 <p class="fontsize2 third">We're always looking for great folks to join us on our mission. If you want to be a part of our story, we'd love to chat. Explore our careers section to see if there's a role that excites you. If there isn't one and we like each other, we'll create one for you.</p>
+                 <a class="ui red button">
+                     Work with us
+                 </a>
+             </div>
+         </div>
+     </div>
+   </div>
+  </div>
+
+  <!-- here is the code for the footer part of the app -->
+  <div class="row" id="main-footer" >
+      <div class="container-fluid">
+      <!-- it is the first row of the footer -->
+          <div class="row">
+              <div class="middle-outer">
+                  <div class="col-md-4">
+                      <ul class="nav flex-column bottom-line">
+                          <li class="nav-item">
+                              <a class="nav-link footer-headers">About Foodie</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Culture</a>
+                          </li>
+                          <li class="nav-item">
+                               <a class="nav-link" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                               <a class="nav-link" href="#">Careers</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Contact</a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="col-md-4">
+                      <ul class="nav flex-column bottom-line">
+                          <li class="nav-item">
+                              <a class="nav-link footer-headers">For Foodies</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Code of Conduct</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Community</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Verified Users</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Blogger Help</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Developers</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Mobile Apps</a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="col-md-4">
+                      <ul class="nav flex-column bottom-line">
+                          <li class="nav-item">
+                              <a class="nav-link footer-headers">For Restaurants</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Add a Restuarant</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Claim your Listing</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Business App</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Business Owner Guidelines</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Business Blog</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Restaurant Widgets</a>
+                           </li>
+                          <li class="nav-item">
+                               <a class="nav-link" href="#">Products for Business</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-- this is the second row of the footer part of the app -->
+          <div class="row" id="second-footer">
+              <div class="middle-outer"><div class="footer-separator">
+              </div>
+              <div class="col-md-8 col-xs-12">
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                           <a class="nav-link" href="#">Privacy</a>
+                      </li>
+                      <li class="nav-item">
+                           <a class="nav-link" href="#">Terms</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">API Policy</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">CSR</a>
+                      </li>
+                      <li class="nav-item">
+                           <a class="nav-link" href="#">Security</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Sitemap</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <!-- this is the last row of the footer of the app- foodie -->
+       <div class="row">
+          <div class="middle-outer"><div class="footer-separator"></div>
+               <div class="col-md-12">
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link" id="copyright">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. © 2008-2017 - Foodie™ Media Pvt Ltd. All rights reserved. </a>
+                         </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
